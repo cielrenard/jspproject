@@ -64,6 +64,7 @@
 			var id = '${sessionScope.UID}'; 
 			if(id == null || id == ''){
 				alert('로그인을 한 후에 이용해주세요')
+				
 				}
 			if ($('#body').val() == "") {
 				alert('내용을 입력해주세요')
